@@ -29,7 +29,7 @@ usato lo stesso per la seconda riga*/
 
 
  .headerfirstrow  {
-    background: #C0C0C0;
+    background-color: #F5F8FA;
     padding:20px;
     border-bottom: 1px solid lightgrey;
     position: fixed;
@@ -158,6 +158,7 @@ header .gethubspot{
     height: 1000px;
     background-image: url(https://cdn2.hubspot.net/hubfs/53/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg);
     background-repeat: no-repeat;
+    background-color: #FFF2EE;
     border-bottom: 4px solid black;
 }
 

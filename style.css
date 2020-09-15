@@ -259,8 +259,9 @@ header .gethubspot{
 }
 
 .genericbox .upper-text hr {
-    color: gray;
+    border: 1px solid gray;
 }
+
 .genericbox .upper-text p {
     font-size: 14px;
     margin-bottom: 20px;

@@ -202,26 +202,24 @@ header .gethubspot{
 }
 .rowbox {
     margin-top: 60px;
-    height: 550px;
 }
 
 /* proprietà del primo riquadro da sinistra */
 .textbox {
     float: left;
     margin: 25px 25px 25px 25px ;
-    height: 500px;
     width: calc(100% / 3 - 50px);
 }
 
 .textbox h1 {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 25px;
 }
 
 .textbox p {
     text-align: left;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 /* fine proprietà del primo riquadro da sinistra */
@@ -287,3 +285,32 @@ header .gethubspot{
     margin-top: 40px;
 
 }
+
+/* inizio sezione 3 con griglia */
+
+.section3 {
+    padding: 100px;
+    height: 1000px;
+    background-color: #00B7AB;
+}
+
+/* primo blocco sezione 3 */
+.s3intro {
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.s3intro h1 {
+    margin-top: 60px;
+    font-size:40px;
+    font-weight: bold;
+}
+
+.s3intro p {
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+/* fine primo blocco sezione 3 */

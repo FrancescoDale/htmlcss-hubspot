@@ -9,7 +9,7 @@
 /* contenitore di parte destra e sinistra della prima riga bloccata .
 usato lo stesso per la seconda riga*/
 
-.wrapper1{
+.wrapper1 {
     width: 80%;
     margin:auto;
 }
@@ -128,7 +128,7 @@ header .gethubspot{
 
 .joinus {
     height: 100px;
-    background-color: #33475b;
+    background-color: #425B76;
     padding: 20px 20px;
     padding-left: 300px;
     padding-right: 300px;
@@ -197,19 +197,20 @@ header .gethubspot{
 
 /* sezione 2 */
 
-.mainbox {
+.section2, .textbox, .rowbox {
+    background-color: #F5F8FA;
+}
+.rowbox {
     margin-top: 60px;
     height: 550px;
-    background-color: #33475b;
 }
 
-
+/* proprietà del primo riquadro da sinistra */
 .textbox {
     float: left;
     margin: 25px 25px 25px 25px ;
     height: 500px;
     width: calc(100% / 3 - 50px);
-    background-color: white;
 }
 
 .textbox h1 {
@@ -223,7 +224,8 @@ header .gethubspot{
     font-size: 18px;
 }
 
-.mainbox::after{
+/* fine proprietà del primo riquadro da sinistra */
+.rowbox::after{
     content:'';
     display:table;
     clear:both;
@@ -232,6 +234,55 @@ header .gethubspot{
     margin: 20px;
     float: left;
     height: 200px;
-    width: calc(100% / 6 -40px);
+    width: calc(100% / 3 - 50px);
     background-color: red;
+}
+
+.genericbox:hover {
+    transform: scale(2,3);
+}
+
+.genericbox .lower-text li img {
+    width: 20px;
+}
+
+.genericbox .lower-text li {
+    list-style-type: none;
+    margin-left: 10px;
+    color: #616c78;
+}
+
+.genericbox .upper-text h3 {
+    color: #32475a;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.genericbox .upper-text hr {
+    color: gray;
+}
+.genericbox .upper-text p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #616c78;
+}
+
+.genericbox .lower-text {
+    padding:20px 0;
+}
+
+.genericbox .lower-text h4 {
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+/* pulsante */
+
+.genericbox .lower-text .gethubspot {
+    position:
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+
 }

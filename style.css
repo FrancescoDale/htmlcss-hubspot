@@ -73,7 +73,7 @@ usato lo stesso per la seconda riga*/
 .gethubspot{
     display: inline-block;
     color: white;
-    background: orange;
+    background: #FF7A59;
     border-radius:5px;
     text-decoration: none;
 }
@@ -233,13 +233,12 @@ header .gethubspot{
 .genericbox {
     margin: 20px;
     float: left;
-    height: 200px;
     width: calc(100% / 3 - 50px);
-    background-color: red;
+    background-color: #FFFFFF;
 }
 
 .genericbox:hover {
-    transform: scale(2,3);
+    transform: scale(1.1,1.1);
 }
 
 .genericbox .lower-text li img {
@@ -280,7 +279,6 @@ header .gethubspot{
 /* pulsante */
 
 .genericbox .lower-text .gethubspot {
-    position:
     text-align: center;
     padding: 25px;
     margin-top: 40px;

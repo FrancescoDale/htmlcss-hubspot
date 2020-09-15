@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* contenitore di parte destra e sinistra della prima riga bloccata .
+usato lo stesso per la seconda riga*/
+
+.wrapper1{
+    width: 80%;
+    margin:auto;
+}
+
+.wrapper1 {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* fine contenitore */
+
+ /* prima riga bloccata header con tasti di login e ricerca*/
+ header {
+     padding-top:80px;
+ }
+
+
+ .headerfirstrow  {
+    background: #C0C0C0;
+    padding:20px;
+    border-bottom: 1px solid lightgrey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100px;
+}
+
+
+.hfrleft{
+    float:left;
+}
+
+.hfrright{
+    float:right;
+}
+
+.hfrleft, .hfrright {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.frtext {
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* pulsanti */
+
+.loginbutton {
+    color: #ff7a59;
+    background: white;
+    border: 1px solid orange;
+    border-radius:5px;
+    padding: 10px 20px;
+}
+
+.gethubspot{
+    display: inline-block;
+    color: white;
+    background: orange;
+    border-radius:5px;
+    text-decoration: none;
+}
+
+header .gethubspot{
+    padding: 10px 20px;
+}
+
+/* effetto copiato da ispeziona pagina */
+
+.gethubspot:hover{
+    background: #ffbcac;
+}
+
+.loginbutton:hover{
+    background-color: #ffbcac;
+}
+
+/* barra con logo e menu */
+
+.headersecondrow {
+    padding:20px;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+}
+ /* logo */
+
+.hsrleft {
+    float: left;
+}
+
+.logo img{
+    padding: 40px 0;
+    width: 150px;
+}
+
+/* menu destro */
+
+.hsrright {
+    float: right;
+    padding-top: 50px;
+}
+
+.hsrright a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 25px;
+}
+
+/* sezione informativa sul canale youtube */
+
+.joinus {
+    height: 100px;
+    background-color: #33475b;
+    padding: 20px 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: left;
+}
+
+.joinus a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.joinus, .joinus a {
+    color: white;
+    font-size: 25px;
+}
+
+/* finesezione informativa */
+
+/* sezione con immagine di sfondo */
+
+.wrapper2 {
+    width: 80%;
+    margin: auto;
+}
+
+.section1 {
+    height: 1000px;
+    background-image: url(https://cdn2.hubspot.net/hubfs/53/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg);
+    background-repeat: no-repeat;
+    border-bottom: 4px solid black;
+}
+
+.section1text {
+    width: 35%;
+    padding-top: 20px;
+}
+
+.section1text p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section1 .gethubspot{
+    padding: 40px 40px;
+    font-weight: bold;
+}
+
+.gethubspot:hover{
+    background: #ffbcac;
+}
+
+.section1text h1 {
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.ubtext {
+    padding-top: 15px;
+}
+.ubtext span {
+    text-transform: uppercase;
+}
+
+/* fine sezione con immagine di sfondo */
+
+/* sezione 2 */
+
+.mainbox {
+    margin-top: 60px;
+    height: 550px;
+    background-color: lightblue;
+}
+
+
+.textbox {
+    float: left;
+    margin: 25px 25px 25px 25px ;
+    height: 500px;
+    width: calc(100% / 3 - 50px);
+    background-color: white;
+}
+
+.textbox h1 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.textbox p {
+    text-align: left;
+    font-size: 18px;
+}
+
+.mainbox::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+.genericbox {
+    margin: 20px;
+    float: left;
+    height: 200px;
+    width: calc(100% / 6 -40px);
+    background-color: red;
+}

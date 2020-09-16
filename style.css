@@ -324,7 +324,6 @@ header .gethubspot{
     float:left;
     border-top: 2px solid white;
     border-right: 2px solid white;
-    display:inline-block;
     text-align: center;
     width: 25%;
     height: 300px;
@@ -333,7 +332,9 @@ header .gethubspot{
 }
 
 .album-element-title h3 {
-    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
     text-transform: uppercase;
     font-weight: bold;
 }

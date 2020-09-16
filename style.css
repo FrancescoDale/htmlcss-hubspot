@@ -354,8 +354,8 @@ header .gethubspot{
 
 .section4 {
     padding: 100px;
-    height: 1200px;
     background-color: #FFFFFF;
+
 }
 
 .s4-firstrow {
@@ -401,4 +401,16 @@ header .gethubspot{
 
 .bottom-img {
     float: right;
+}
+
+.section4::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* fine sezione 4 */
+
+footer {
+    height: 200px;
+    background-color: #33475B;
 }

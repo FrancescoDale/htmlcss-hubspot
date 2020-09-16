@@ -223,6 +223,7 @@ header .gethubspot{
 }
 
 /* fine proprietà del primo riquadro da sinistra */
+
 .rowbox::after{
     content:'';
     display:table;
@@ -359,4 +360,45 @@ header .gethubspot{
 
 .s4-firstrow {
 
+}
+
+.firstrow-left {
+    float: left;
+    width: 50%;
+}
+
+.firstrow-left h2 {
+    font-size: 60px;
+}
+.firstrow-left strong {
+    font-size: 40px;
+}
+
+.firstrow-right {
+    float: right;
+    /*display: block;*/
+    width: 50%;
+}
+
+.firstrow-right img {
+    width: 120px;
+    margin: 10px 10px 10px 10px;
+}
+
+.s4-secondrow {
+    padding-top: 250px;
+}
+
+.section4-text .gethubspot {
+    margin-top: 25px;
+    padding: 35px;
+}
+
+.section4-text {
+    float: left;
+    width: 50%;
+}
+
+.bottom-img {
+    float: right;
 }

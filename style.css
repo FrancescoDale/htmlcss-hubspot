@@ -149,7 +149,7 @@ header .gethubspot{
 
 /* sezione con immagine di sfondo */
 
-.wrapper2 {
+.wrapper {
     width: 70%;
     margin: auto;
 }
@@ -290,7 +290,7 @@ header .gethubspot{
 
 .section3 {
     padding: 100px;
-    height: 1000px;
+    height: 1200px;
     background-color: #00B7AB;
 }
 
@@ -318,10 +318,13 @@ header .gethubspot{
 .album {
     margin-top: 60px;
     width: 100%;
+    margin-bottom: auto;
 }
 
 .album-element {
     float:left;
+    display: inline-block;
+/* non userò clearfix perchè non devo dimensionare i blocchi */
     border-top: 2px solid white;
     border-right: 2px solid white;
     text-align: center;
@@ -342,4 +345,14 @@ header .gethubspot{
 .album-element-title p {
     font-size: 20px;
     text-transform: capitalize;
+}
+
+/* fine sezione 3 */
+
+/* inizio sezione 4 */
+
+.section4 {
+    padding: 100px;
+    height: 1200px;
+    background-color: #FFFFFF;
 }
